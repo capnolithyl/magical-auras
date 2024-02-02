@@ -1,0 +1,59 @@
+.aura--transmutation .aura-inner:before {
+    -webkit-animation: aura 4s linear infinite;
+    animation: aura 4s linear infinite;
+    background: linear-gradient(0deg, rgba(207, 181, 59, 0.45), rgba(197, 179, 88, 0.6));
+    border-radius: 50%;
+    content: "";
+    display: block;
+    filter: blur(5px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    will-change: auto;
+    z-index: -2;
+}
+
+.aura--transmutation .aura-inner:after {
+    -webkit-animation: aura-rev 2s linear infinite;
+    animation: aura-rev 2s linear infinite;
+    background: linear-gradient(90deg, rgba(242, 225, 25, 0.45), #d4af37);
+    border-radius: 50%;
+    content: "";
+    display: block;
+    filter: blur(5px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    will-change: auto;
+    z-index: -1;
+}
+
+.aura--transmutation .aura-inner2:before {
+    -webkit-animation: aura-rev 3s linear infinite;
+    animation: aura-rev 3s linear infinite;
+    background: linear-gradient(180deg, rgba(212, 175, 55, 0.55), rgba(197, 179, 88, 0.6));
+    border-radius: 50%;
+    content: "";
+    display: block;
+    filter: blur(5px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    will-change: auto;
+    z-index: -2;
+}
+
+.aura--transmutation .aura-inner2:after {
+    -webkit-animation: aura 5s linear infinite;
+    animation: aura 5s linear infinite;
+    background: linear-gradient(270deg, rgba(207, 181, 59, 0.45), #d4af37);
+    border-radius: 50%;
+    content: "";
+    display: block;
+    filter: blur(5px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    will-change: auto;
+    z-index: -1;
+}

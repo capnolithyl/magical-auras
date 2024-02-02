@@ -1,0 +1,75 @@
+.aura--evocation .aura-inner2:after,
+.aura--illusion .aura-inner:before {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    filter: blur(5px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    will-change: auto;
+}
+
+.aura--illusion .aura-inner:before {
+    -webkit-animation: aura 4s linear infinite;
+    animation: aura 4s linear infinite;
+    background: linear-gradient(0deg, rgba(160, 82, 45, 0.45), rgba(60, 60, 20, 0.3));
+    z-index: -2;
+}
+
+.aura--illusion .aura-inner:after {
+    -webkit-animation: aura-rev 2s linear infinite;
+    animation: aura-rev 2s linear infinite;
+    background: linear-gradient(90deg, rgba(180, 105, 30, 0.45), rgba(0, 0, 0, 0.05));
+    z-index: -1;
+}
+
+.aura--illusion .aura-inner2:before,
+.aura--illusion .aura-inner:after {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    filter: blur(5px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    will-change: auto;
+}
+
+.aura--illusion .aura-inner2:before,
+.aura--illusion .aura-inner:after {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    filter: blur(5px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    will-change: auto;
+}
+
+.aura--illusion .aura-inner2:before {
+    -webkit-animation: aura-rev 3s linear infinite;
+    animation: aura-rev 3s linear infinite;
+    background: linear-gradient(180deg, rgba(210, 145, 30, 0.45), rgba(60, 60, 20, 0.3));
+    z-index: -2;
+}
+
+.aura--illusion .aura-inner2:after {
+    -webkit-animation: aura 5s linear infinite;
+    animation: aura 5s linear infinite;
+    background: linear-gradient(270deg, rgba(160, 82, 45, 0.45), rgba(0, 0, 0, 0.05));
+    z-index: -1;
+}
+
+.aura--illusion .aura-inner2:after,
+.aura--necromancy .aura-inner:before {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    filter: blur(5px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    will-change: auto;
+}

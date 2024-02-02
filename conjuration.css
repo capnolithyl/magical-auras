@@ -1,0 +1,64 @@
+.aura--conjuration .aura-inner:after,
+.aura--conjuration .aura-inner:before {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    filter: blur(5px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    will-change: auto;
+}
+
+.aura--conjuration .aura-inner:before {
+    -webkit-animation: aura 4s linear infinite;
+    animation: aura 4s linear infinite;
+    background: linear-gradient(0deg, rgba(50, 50, 255, 0.25), rgba(60, 60, 90, 0.8));
+    z-index: -2;
+}
+
+.aura--conjuration .aura-inner2:before {
+    -webkit-animation: aura-rev 3s linear infinite;
+    animation: aura-rev 3s linear infinite;
+    background: linear-gradient(180deg, rgba(0, 0, 200, 0.45), rgba(60, 60, 90, 0.8));
+    border-radius: 50%;
+    content: "";
+    display: block;
+    filter: blur(5px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    will-change: auto;
+    z-index: -2;
+}
+
+.aura--conjuration .aura-inner2:after,
+.aura--divination .aura-inner:before {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    filter: blur(5px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    will-change: auto;
+}
+
+.aura--conjuration .aura-inner:after {
+    -webkit-animation: aura-rev 2s linear infinite;
+    animation: aura-rev 2s linear infinite;
+    background: linear-gradient(90deg, rgba(0, 0, 200, 0.45), #99d);
+    z-index: -1;
+}
+
+.aura--conjuration .aura-inner:after,
+.aura--conjuration .aura-inner:before {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    filter: blur(5px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    will-change: auto;
+}

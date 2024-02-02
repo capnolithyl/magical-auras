@@ -1,0 +1,67 @@
+.aura--divination .aura-inner2:after,
+.aura--enchantment .aura-inner:before {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    filter: blur(5px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    will-change: auto;
+}
+
+.aura--enchantment .aura-inner:before {
+    -webkit-animation: aura 4s linear infinite;
+    animation: aura 4s linear infinite;
+    background: linear-gradient(0deg, rgba(100, 255, 0, 0.45), rgba(90, 90, 0, 0.8));
+    z-index: -2;
+}
+
+.aura--enchantment .aura-inner:after {
+    -webkit-animation: aura-rev 2s linear infinite;
+    animation: aura-rev 2s linear infinite;
+    background: linear-gradient(90deg, rgba(0, 255, 100, 0.45), #6c9);
+    border-radius: 50%;
+    content: "";
+    display: block;
+    filter: blur(5px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    will-change: auto;
+    z-index: -1;
+}
+
+.aura--enchantment .aura-inner2:before {
+    -webkit-animation: aura-rev 3s linear infinite;
+    animation: aura-rev 3s linear infinite;
+    background: linear-gradient(180deg, rgba(200, 0, 140, 0.45), rgba(90, 90, 0, 0.8));
+    border-radius: 50%;
+    content: "";
+    display: block;
+    filter: blur(5px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    will-change: auto;
+    z-index: -2;
+}
+
+.aura--enchantment .aura-inner2:after {
+    -webkit-animation: aura 5s linear infinite;
+    animation: aura 5s linear infinite;
+    background: linear-gradient(270deg, rgba(100, 255, 0, 0.45), #6c9);
+    z-index: -1;
+}
+
+.aura--enchantment .aura-inner2:after,
+.aura--evocation .aura-inner:before {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    filter: blur(5px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    will-change: auto;
+}
